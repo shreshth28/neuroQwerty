@@ -132,12 +132,12 @@ var questions = [
     var h1 = document.createElement('h1')
     if(prob>0){
 
-    h1.appendChild(document.createTextNode('Your Parkinson neuroQWERTY index is ' + prob + ' ! '))
+    h1.appendChild(document.createTextNode('Your score is ' + prob + ' ! '))
     if(prob>0.8){
-      h1.appendChild(document.createTextNode('You might be suffering from Parkinsons Disease'))
+      h1.appendChild(document.createTextNode('Keep working :D'))
     }
     else{
-      h1.appendChild(document.createTextNode('You are perfectly alright :D'))
+      h1.appendChild(document.createTextNode('You did a wonderful job :D'))
     }
     
     
