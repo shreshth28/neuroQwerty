@@ -143,8 +143,8 @@ var questions = [
     
     }
     else{
-      h1.appendChild(document.createTextNode('Your Parkinson neuroQWERTY index is ' + 0.132 + ' ! '))
-        h1.appendChild(document.createTextNode('You are perfectly alright :D'))
+      h1.appendChild(document.createTextNode('Your Score is ' + 0.132 + ' ! '))
+        h1.appendChild(document.createTextNode('You are doing a great job :D'))
     }
     setTimeout(function() {
       register.parentElement.appendChild(h1)     
